@@ -7,13 +7,19 @@ import { HeaderComponent } from './header/header.component';
 import { LogoComponent } from './header/logo/logo.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { UserButtonComponent } from './header/user-button/user-button.component';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
+import { CoursesComponent } from './courses/courses.component';
+import { ToolboxComponent } from './toolbox/toolbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LogoComponent,
-    UserButtonComponent
+    UserButtonComponent,
+    BreadcrumbsComponent,
+    CoursesComponent,
+    ToolboxComponent
   ],
   imports: [
     BrowserModule,
