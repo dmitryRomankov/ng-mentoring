@@ -1,0 +1,6 @@
+.ngm-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-bottom: 1px solid black;
+}

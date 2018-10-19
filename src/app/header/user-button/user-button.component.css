@@ -1,0 +1,14 @@
+.ngm-user {
+  height: 100%;
+}
+
+.ngm-user__buttons {
+ height: 100%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.ngm-user__button {
+  margin-right: 10px;
+}
