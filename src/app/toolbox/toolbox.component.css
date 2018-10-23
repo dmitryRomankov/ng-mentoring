@@ -1,0 +1,22 @@
+.ngm-toolbox__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.ngm-toolbox__text {
+  width: 300px;
+  height: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+/* .ngm-toolbox__submit {
+
+} */
+
+.ngm-toolbox__btn-add {
+  margin-left: auto;
+}
