@@ -10,6 +10,7 @@ import { UserButtonComponent } from './header/user-button/user-button.component'
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { CoursesComponent } from './courses/courses.component';
 import { ToolboxComponent } from './toolbox/toolbox.component';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ToolboxComponent } from './toolbox/toolbox.component';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent],
