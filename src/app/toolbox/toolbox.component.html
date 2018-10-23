@@ -1,10 +1,12 @@
 <div class="ngm-toolbox">
-  <div class="ngm-toolbox__container">
-    <input type="text" class="ngm-toolbox__text" placeholder="Name, fragment or date">
-    <input type="submit" value="Search" class="ngm-toolbox__submit">
-    <button class="ngm-toolbox__btn-add">
-        <fa-icon [icon]="faPlusSquare"></fa-icon>
-      Add course
+  <form class="ngm-toolbox__container" action="#">
+    <input type="text" matInput class="ngm-toolbox__text" placeholder="Name, fragment or date">
+    <button mat-stroked-button class="ngm-toolbox__btn ngm-toolbox__search">
+      Search
     </button>
-  </div>
+    <button mat-stroked-button class="ngm-toolbox__btn ngm-toolbox__btn-add">
+      Add Course
+    </button>
+  </form>
 </div>
+
